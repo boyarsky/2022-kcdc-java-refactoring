@@ -1,5 +1,10 @@
 # KCDC 2022 Hands on Lab
 
+If using IntelliJ, open folder and associate your JDK 17+ (ok to trust folder)
+If using Eclipse, import project and setup your JDK 17+
+If using VS Code, open folder and associate your JDK 17+. (ok to trust folder)
+If using JDoodle, copy/paste and be sure to choose Java 17
+
 ## Module 1: Strings and Text Blocks
 
 1. Edit lab/module1/Reading.java so embedded() uses a text block.
