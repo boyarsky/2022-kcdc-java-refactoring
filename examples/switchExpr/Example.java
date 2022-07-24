@@ -42,4 +42,21 @@ public class Example {
         return 0;
     }
 
+    sealed interface Season permits Winter, Spring, Summer, Fall{}
+    final class Winter implements Season {}
+    final class Spring implements Season {}
+    final class Summer implements Season {}
+    final class Fall implements Season {}
+    public String sealed(Season season) {
+        /*return switch (season) {
+            case null -> "null";
+            case Winter w -> "Winter";
+            case Spring s -> "Spring";
+            case Summer s -> "Summer";
+            case Fall f -> "Fall";
+        };*/
+        return "";
+
+    }
+
 }
