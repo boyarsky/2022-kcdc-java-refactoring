@@ -39,3 +39,15 @@ A developer on your team just wrote the module3 package in the lab folder. Since
 5. If you have time: Add a third implementing class called Lunch!
 
 ## Module 4: APIs
+
+1. In lab/module4/UsingApis.java, refactor collecting() to use toList() instead of collect().
+2. Implement teeing() so it returns a list of the odd numbers and the number of odd numbers (Hint: use Collectors.toList() and Collectors.count())
+3. In learnings(), create a text block to say:
+```
+1. I learned about "%s".
+2. I learned about "%s".
+3. I learned about "%s"!
+```
+4. Call formatted() and pass in three things you learned.
+5. Implement formatted() to return "1 billion"
+6. No code required: Congratulate yourself on a successful conference. (I"ll be here until 5pm so feel free to experiment more and ask if you have questions)
