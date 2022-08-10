@@ -38,8 +38,8 @@ If using JDoodle, copy/paste and be sure to choose Java 17
 A developer on your team just wrote the module3 package in the lab folder. Since nobody is calling it yet, we have the opportunity to refactor. (Ignore the duplication. This is just for the sake of example.)
 
 1. Rename the methods in Session so they will be forward compatible with us making it a record in the future. Change the subclasses so they compile.
-2. The future is here. Turn HourSession and HalfDaySession into records. Remove all unnecessary code.
-3. Session would be better as an interface. We hadn't made it one because we don't want arbitrary subclasses. Change it to be a sealed interface with two known implementers.
+2. Session would be better as an interface. We hadn't made it one because we don't want arbitrary subclasses. Change it to be a sealed interface with two known implementers.
+3. The future is here. Turn HourSession and HalfDaySession into records (refactoring didn't work when we tried). Remove all unnecessary code.
 4. Harder: Add a compact constructor that validates that the start time is before the end time.
 5. If you have time: Add a third implementing class called Lunch!
 
