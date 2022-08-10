@@ -9,7 +9,7 @@ If using JDoodle, copy/paste and be sure to choose Java 17
 
 1. Edit lab/module1/Reading.java so embedded() uses a text block.
 2. Edit sampleXml() uses a text block instead of reading from a file.
-3. Edit the text block so there is no longer trailing whitespace and the output ends with </project>*
+3. Edit the xml text block so there is no longer trailing whitespace and the output ends with </project>*
 4. Add a single line to Reading.java to print the XML with every line indented 10 positions.
 5. Create another text block with the same contents except no line breaks.
 6. Create another text block with the same contents except with extra line breaks.
@@ -40,7 +40,7 @@ A developer on your team just wrote the module3 package in the lab folder. Since
 1. Rename the methods in Session so they will be forward compatible with us making it a record in the future. Change the subclasses so they compile.
 2. Session would be better as an interface. We hadn't made it one because we don't want arbitrary subclasses. Change it to be a sealed interface with two known implementers.
 3. The future is here. Turn HourSession and HalfDaySession into records (refactoring didn't work when we tried). Remove all unnecessary code.
-4. Harder: Add a compact constructor that validates that the start time is before the end time.
+4. Harder: Add a compact constructor to one of the records that validates that the start time is before the end time.
 5. If you have time: Add a third implementing class called Lunch!
 
 ## Module 4: APIs
