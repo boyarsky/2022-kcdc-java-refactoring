@@ -13,7 +13,7 @@ If using JDoodle, copy/paste and be sure to choose Java 17
 4. Add a single line to ReadXml.java to print the XML with every line indented 10 positions.
 5. Create another text block with the same contents except no line breaks.
 6. Create another text block with the same contents except with extra line breaks.
-7. Harder: Create a method that takes a Function<CharSequence, CharSequence> and adds a '+' to the beginning and end of the value. Call it with a String, StringBuilder and text block. What do you observer.
+7. Harder: Create a method that takes a Function<CharSequence, CharSequence> and adds a '+' to the beginning and end of the value. Call it with a String, StringBuilder and text block. What do you observe?
 8. Fun: Use a text block to create your own ASCII art. For example, this cat comes from https://en.wikipedia.org/wiki/ASCII_art
 
 ```
