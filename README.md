@@ -10,7 +10,7 @@ If using JDoodle, copy/paste and be sure to choose Java 17
 1. Edit lab/module1/Reading.java so embedded() uses a text block.
 2. Edit sampleXml() uses a text block instead of reading from a file.
 3. Edit the text block so there is no longer trailing whitespace and the output ends with </project>*
-4. Add a single line to ReadXml.java to print the XML with every line indented 10 positions.
+4. Add a single line to Reading.java to print the XML with every line indented 10 positions.
 5. Create another text block with the same contents except no line breaks.
 6. Create another text block with the same contents except with extra line breaks.
 7. Harder: Create a method that takes a Function<CharSequence, CharSequence> and adds a '+' to the beginning and end of the value. Call it with a String, StringBuilder and text block. What do you observe?
